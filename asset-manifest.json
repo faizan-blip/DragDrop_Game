@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/DragDrop_Game/static/css/main.cf9516e1.css",
+    "main.js": "/DragDrop_Game/static/js/main.07f2f539.js",
+    "static/js/787.83904489.chunk.js": "/DragDrop_Game/static/js/787.83904489.chunk.js",
+    "static/media/dragbg.jpg": "/DragDrop_Game/static/media/dragbg.74ad889cc463f1045936.jpg",
+    "static/media/wrong.png": "/DragDrop_Game/static/media/wrong.0199c0629d3c713726fb.png",
+    "static/media/correct.png": "/DragDrop_Game/static/media/correct.7932442f27e052b0eb81.png",
+    "static/media/image.png": "/DragDrop_Game/static/media/image.09b980572a4f02c99807.png",
+    "static/media/game.png": "/DragDrop_Game/static/media/game.55290ede091a73cdf4bf.png",
+    "static/media/logo.png": "/DragDrop_Game/static/media/logo.660f806472b15d72d90a.png",
+    "static/media/bg.avif": "/DragDrop_Game/static/media/bg.720ece5768e6c2c1a69f.avif",
+    "index.html": "/DragDrop_Game/index.html",
+    "main.cf9516e1.css.map": "/DragDrop_Game/static/css/main.cf9516e1.css.map",
+    "main.07f2f539.js.map": "/DragDrop_Game/static/js/main.07f2f539.js.map",
+    "787.83904489.chunk.js.map": "/DragDrop_Game/static/js/787.83904489.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf9516e1.css",
+    "static/js/main.07f2f539.js"
+  ]
+}
