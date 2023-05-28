@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+.hover{
+  transition: all 0.5s ease;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hover:hover{
+  background-color: red!important;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.check:hover{
+  background-color: black!important;
+}
+.image{
+  transform: translateX(-50%);
+  animation-name: rocketAnimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes rocketAnimation {
+  0% {
+    transform:  translateY(0);
+  }
+  50% {
+    transform:  translateY(-50px);
+  }
+  100% {
+    transform:  translateY(0px) ;
+  }
+}
+@media(max-width:700px){
+  .image{
+    width: 500px;
+  }
+}
+@media(max-width:498px){
+  .image{
+    width: 350px;
+  }
+}
+@media(max-width:1300px){
+  .wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    align-items: center!important;
+    margin-top: 5em;
+    gap: 100px!important;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .body{
+    height: auto!important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.15));
 }
 
-.App-link {
-  color: #61dafb;
+.button-container {
+  display: flex;
+  gap: 1rem;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #333333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.box-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2em;
+}
+
+@media(max-width:500px){
+  .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5em;
   }
-  to {
-    transform: rotate(360deg);
+  .body1{
+    height: auto!important;
   }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  border: 2px dashed #cccccc;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #333333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box.filled {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.box:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.check:hover{
+filter:  drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
