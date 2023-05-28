@@ -103,7 +103,7 @@ const handleClose = () => {
     >
    
   <Box sx={{height:"100vh" ,  background:`url(${dragbg})` , display:"flex" , alignItems:"center" , justifyContent:"center" , backgroundPosition:"center" , backgroundSize:"cover" , flexDirection:"column"}} className='body1'>
-  <Link to='/' style={{alignSelf:"start" }}>< HomeIcon sx={{ transform:"Scale(2)" , paddingLeft:"1em", color:"white" }}/></Link>
+  <Link to='/' style={{alignSelf:"start" , paddingTop:"1em"}}>< HomeIcon sx={{ transform:"Scale(2)" , paddingLeft:"1em", color:"white" }}/></Link>
   <Typography sx={{fontSize:{md:"90px" , sm:"50px", xs:"45px"} , color:"#f5f5f5" , fontWeight:"900",textShadow:"2px 2px 10px #89CFF0"  , opacity:"0.5"}}>Welcome to the Drag World</Typography>
   <motion.div
       initial={{ opacity: 0 }}
